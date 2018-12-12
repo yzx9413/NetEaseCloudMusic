@@ -1,0 +1,122 @@
+.list {
+    width: 100%;
+    height: auto;
+}
+
+.list h4 {
+    width: 100%;
+    padding-left: 10px;
+}
+
+.list img {
+    border-radius: 10px;
+}
+
+.list span {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .1rem;
+    font-weight: bold;
+}
+
+.djList {
+    width: 100%;
+    height: auto;
+}
+
+.djList ul {
+    width: 100%;
+    height: auto;
+}
+
+.djList ul li {
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+.djList li img {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+.djList li div {
+    width: 70%;
+    height: auto;
+    float: left;
+}
+
+.djList li h4 {
+    margin-top: 10%;
+    line-height: 20px;
+    font-size: .12rem;
+    font-weight: bold;
+}
+
+.djList li span {
+    font-size: .1rem;
+}
+
+.friend {
+    width: 100%;
+    height: auto;
+}
+
+.friend li {
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+}
+
+.friend li img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.friend li h4 {
+    font-weight: bold;
+}
+
+.friend li h4 span {
+    font-size: .1rem;
+}
+
+.friend li p span {
+    font-size: .13rem;
+    margin-left: 10%;
+    margin-top: .3rem;
+}
+
+.Banner {
+    width: 100%;
+    height: auto;
+}
+
+.Banner div {
+    width: 100%;
+    height: auto;
+}
+
+.Banner div img {
+    width: 100%;
+    height: auto;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+    color: #fff;
+}

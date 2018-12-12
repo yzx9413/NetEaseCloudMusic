@@ -1,0 +1,86 @@
+.head {
+    width: 100%;
+    height: 44px;
+    line-height: 55px;
+    background: #DF4238;
+    color: #fff;
+}
+
+.info {
+    width: 90%;
+    float: right;
+    background-color: #DF4238;
+    color: #fff
+}
+
+.info div,
+.info span {
+    background: #DF4238;
+    color: #fff;
+}
+
+.info i {
+    display: none;
+}
+
+.info input {
+    color: #fff!important;
+}
+
+.hotSearch {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.hotSearch h2 {
+    font-size: .12rem;
+    font-weight: bold;
+}
+
+.hotSearch>div {
+    margin: 5px 5px;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.content h2 {
+    font-size: .12rem;
+    font-weight: bold;
+}
+
+.content ul {
+    width: 100%;
+    height: auto;
+}
+
+.content ul li {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.content ul li h4 {
+    width: 80%;
+    font-size: .15rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+
+.content ul li div span {
+    font-size: .12rem;
+    color: #888;
+}
+
+.content ul li div span {
+    font-size: .12rem;
+    color: #888;
+}

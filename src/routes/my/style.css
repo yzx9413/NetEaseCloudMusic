@@ -1,0 +1,47 @@
+.listData {
+    width: 100%;
+    height: auto;
+}
+
+.listData>h2 {
+    line-height: .2rem;
+}
+
+.listData ul {
+    width: 100%;
+    height: auto;
+}
+
+.listData ul li {
+    width: 100%;
+    height: auto;
+    clear: both;
+    content: "";
+    display: table;
+    padding-top: 4px;
+    border-bottom: 2px solid #eee;
+}
+
+.listData ul li img {
+    width: 20%;
+    height: auto;
+    float: left;
+    border-radius: .05rem;
+}
+
+.listData ul li div {
+    width: 80%;
+    float: left;
+}
+
+.listData ul li div h4 {
+    font-size: .12rem;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 5%;
+}
+
+.listData ul li div span {
+    font-size: .11rem;
+    margin-left: 5%;
+}

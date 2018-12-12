@@ -1,0 +1,71 @@
+.textAlign {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.navCon {
+    text-align: center;
+}
+
+.navCon>div {
+    width: .5rem;
+    height: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    line-height: .5rem;
+    margin: 0 auto;
+}
+
+.loginBtn {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+
+.MarginTop {
+    margin-top: 5%;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #D13027;
+    border: 1px solid #D13027!important
+}
+
+.navLink {
+    width: 100%;
+    position: fixed;
+    bottom: 5%;
+    left: 0;
+}
+
+.navLink img {
+    display: block;
+    width: .3rem;
+    height: .3rem;
+    margin-top: .1rem;
+}
+
+.banner {
+    width: .96rem;
+    height: .96rem;
+    margin: 0 auto;
+    margin-top: 30%;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    padding-top: 5%;
+    background: url(../../assets/bgimg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.small {
+    text-align: center;
+    font-size: .1rem;
+    margin-top: 2%;
+    text-decoration: underline;
+}

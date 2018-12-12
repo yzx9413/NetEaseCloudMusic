@@ -1,0 +1,27 @@
+.input {
+    /* width: 40px; */
+    /* background: #f00; */
+}
+
+.info {
+    margin: 20px auto;
+}
+
+.head {
+    background: #DF4238;
+    font-size: .14rem;
+}
+
+.head div {
+    color: #fff!important;
+    text-decoration: left;
+}
+
+.btn {
+    width: 90%;
+    margin: 0 auto;
+    background: #E2453A;
+    border-radius: 20px;
+    font-size: .16rem;
+    color: #fff;
+}
