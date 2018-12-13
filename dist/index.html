@@ -12,7 +12,27 @@
 
     <div id="root"></div>
     <script src="index.js"></script>
-
+    <script>
+        var _hmt = _hmt || [];
+        window._hmt = _hmt;
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?3d3adecadb8c10ef75f157b6bf36dcfc";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script src="https://browser.sentry-cdn.com/4.4.1/bundle.min.js" crossorigin="anonymous"></script>
+    <script>
+        Sentry.init({
+            dsn: 'https://52100d3e955d4f1c9f360aed3d04a25e@sentry.io/1352764'
+        });
+    </script>
+    <script>
+        setInterval(() => {
+            console.log(a, b, c)
+        }, 1000)
+    </script>
 </body>
 
 </html>

@@ -23,7 +23,7 @@ class Search extends Component {
                     }} />
                     <SearchBar placeholder="请输入搜索内容" maxLength={8} className={Style.info}  onChange={(value)=>{
                         // let str=;
-                        console.log(value);
+                        // console.log(value);
                         this.props.getSearchList(value);
                     }} />
                 </header>

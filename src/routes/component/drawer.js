@@ -17,6 +17,7 @@ class Side extends Component {
         this.setState({
             visible: true,
         });
+        window._hmt = ["_trackEvent", "个人", "信息", "展示"];
     };
 
     onClose = () => {
@@ -32,11 +33,11 @@ class Side extends Component {
             <div>
                 <div onClick={this.showDrawer}><img src={Icon1} alt="" /></div>
                 <Drawer width='240' title={
-                    <div style={{width:'100%',background:`url(${User.backgroundUrl})`,backgroundSize:'100%',color:'#fff',textIndent:'.2rem'}}>
-                    <div style={{fontSize:'.16rem',lineHeight:'.3rem'}}>{User.nickname}</div>
-                    <img style={{width:'50%',height:'auto',borderRadius:'50%',margin:'10px 25%'}} src={User.avatarUrl} alt=""/>
-                    <div>{User.signature}</div>
-                    <span>等级：</span><span>6</span></div>
+                    <div style={{ width: '100%', background: `url(${User.backgroundUrl})`, backgroundSize: '100%', color: '#fff', textIndent: '.2rem' }}>
+                        <div style={{ fontSize: '.16rem', lineHeight: '.3rem' }}>{User.nickname}</div>
+                        <img style={{ width: '50%', height: 'auto', borderRadius: '50%', margin: '10px 25%' }} src={User.avatarUrl} alt="" />
+                        <div>{User.signature}</div>
+                        <span>等级：</span><span>6</span></div>
                 }
                     // title={'',}
                     placement="left"
