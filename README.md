@@ -4,4 +4,4 @@
 * 基础功能已经具备
 * 后续会打包上线
 
->>> 接口地址:http://123.206.55.50/1605A/yangzhipeng/NetEaseCloudMusic/dist/index.html#/login
+>>> 页面地址:http://123.206.55.50/1605A/yangzhipeng/NetEaseCloudMusic/dist/index.html#/login
